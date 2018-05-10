@@ -1,5 +1,5 @@
-
 <?php get_header(); ?>
+    <img class="img-responsive" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />    
     <div class="conteudo">
         <main>
             <section class="slide">
@@ -15,7 +15,7 @@
                 <div class="noticias">
                 <!-- Loop Wordpress -->
                 <?php 
-						// Se houver algum post
+						// Se houver algum post executa condicao
 						if(have_posts()) :
 							// Enquanto houver algum post, chame o post de determinada maneira
 							while (have_posts()) : the_post();
