@@ -51,5 +51,7 @@ register_nav_menus(
 // Adicionando features do theme support(personalização via painel)
 add_theme_support('custom-background');
 add_theme_support('custom-header');
+add_theme_support('post-thumbnails');
+add_theme_support('post-formats', array('video','image'));
 
 ?>

@@ -1,4 +1,7 @@
-
+.wp-post-image{
+    float: left;
+    margin: 0 15px 10px 0;
+}
 .redes-sociais{
     background-color: green;
     height: 30px;
@@ -10,4 +13,13 @@
 
 .menu-principal ul li{
     display: inline;
+}
+.vermelho{
+    color: red;
+    font-weight: bold;
+}
+.verde{
+    background-color: green;
+    color: #ffffff;
+    font-weight: bold;
 }
